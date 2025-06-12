@@ -49,17 +49,15 @@
                 </div>
                 <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#features">Features</a>
+                        <a  @click="toggleMobileNav()" href="#beneficios">Beneficios</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#faq">FAQ</a>
+                        <a  @click="toggleMobileNav()" href="#preguntasfrecuentes">Preguntas Frecuentes</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#subscribe">Subscribe</a>
+                        <a  @click="toggleMobileNav()" href="#subscribe">Suscríbete</a>
                     </li>
-                    <li class="bg-transparent border-2 rounded px-6 py-2 mt-6 w-full text-center cursor-pointer hover:text-theme-secondary transition duration-200">
-                        <a  @click="toggleMobileNav()" href="#download-section">Download</a>
-                    </li>
+
                 </ul>
                 <div class="flex justify-center items-end h-52">
                     <ul class="flex space-x-8">
