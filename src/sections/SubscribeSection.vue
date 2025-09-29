@@ -40,7 +40,7 @@ let handleSubmit = async () => {
 
     if (!hasErrors) {
         try {
-            const response = await fetch("http://localhost:3001/subscribe", {
+            const response = await fetch("https://encargate-api.onrender.com/subscribe", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
